@@ -50,6 +50,7 @@ const Login = () => {
             else
             {
                 setError("Đã có lỗi không mong muốn, vui lòng thử lại");
+                console.log(error);
             }
         }
 
